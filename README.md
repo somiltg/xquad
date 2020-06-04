@@ -14,8 +14,6 @@ All files are in json format following the SQuAD dataset format. A parallel exam
 English, Spanish, and Chinese can be seen in the image below. The full dataset consists of 240
 such parallel instances in 11 languages.
 
-![An example from XQuAD](xquad_example.png)
-
 ## Extension: 
 Multilingual Machine Comprehension (MMC) is a Question-Answering (QA) sub-task that involves quoting the answer for a question from a given snippet, where the question and the snippet can be in different languages. For evaluation in multilingual models (e.g. English and Hindi), you need to evaluate both mono-lingual performance (English Question-English Answer, same setup for Hindi), and cross-lingual performance (English Question-Hindi Answer and vice-versa). (Please note that this is different from XQuAD's definition of cross-lingual performance). The XQuAD dataset only contains monolingual variants, therefore, the script is written to generate cross-lingual variants from the monolingual evaluation sets. For our case https://arxiv.org/pdf/2006.01432.pdf, we create cross-lingual
 variants using the monolingual variants of English and Hindi which are already present in XQuAD. 
