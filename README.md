@@ -47,7 +47,7 @@ File generated for -q hi and -s en would be xquad.q_hi_s_en.json
 If you use this dataset, please cite 
 [[1]](https://arxiv.org/pdf/2006.01432):
 
-[1] Gupta, S. & Khade, N. (2020). [ERT Based Multilingual Machine Comprehension in English and Hindi](https://arxiv.org/pdf/2006.01432). arXiv preprint arXiv:2006.01432.
+[1] Gupta, S. & Khade, N. (2020). [BERT Based Multilingual Machine Comprehension in English and Hindi](https://arxiv.org/pdf/2006.01432). arXiv preprint arXiv:2006.01432.
 
 ```
 @misc{gupta2020bert,
